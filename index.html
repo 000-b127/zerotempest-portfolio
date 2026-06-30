@@ -1,84 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Void-Station</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <div class="preloader" aria-hidden="true">
+      <div class="preloader-ring"></div>
+      <p>Carregando Void-Station</p>
+    </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body>
-
-    <!-- Cabeçalho -->
-    <header>
-        <img class="profile-photo" src="https://avatars.githubusercontent.com/u/229396206?v=4"
-            alt="Foto de perfil de Zero Tempest">
-        <h1>⛧𝐙𝐞𝐫𝐨 𝐓𝐞𝐦𝐩𝐞𝐬𝐭♱</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="Cabecalho reveal">
+      <h1>Void-Station</h1>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Contato">Contato</a>
+      </nav>
     </header>
-
-    <!-- Conteúdo principal -->
     <main>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é Zero Tempest e sou um desenvolvedor web apaixonado por criar soluções inovadoras. Tenho
-                experiência em HTML, CSS, JavaScript e outras tecnologias de desenvolvimento web.</p>
-        </section>
+      <img
+        class="reveal reveal-delay-1"
+        src="img/Void-Station.png"
+        alt="Void-Station"
+        height="50px"
+        width="350px"
+      />
+      <h3 class="reveal reveal-delay-2">Bem-Vindo</h3>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <img class="project-image" src="img/Fluxo0.png"
-                        alt="Prévia do Projeto 1">
-                    <h3>Projeto 1</h3>
-                    <p>Meu primeiro projeto em HTML/CSS.</p>
-                    <div class="project-meta">HTML • CSS • JavaScript</div>
-                    <a href="https://000-b127.github.io/-Station/" target="_blank" rel="noopener">Ver projeto</a>
-                </article>
-                <article class="project-card">
-                    <img class="project-image" src="img/oFlux.png"
-                        alt="Prévia do Projeto 2">
-                    <h3>Projeto 2</h3>
-                    <p>Meu segundo projeto, desenvolvido com HTML, CSS e JavaScript.</p>
-                    <div class="project-meta">HTML • CSS • JavaScript</div>
-                    <a href="https://000-b127.github.io/Alguma-coisa-a-/" target="_blank" rel="noopener">Ver projeto</a>
-                </article>
-                <article class="project-card">
-                    <img class="project-image" src="img/Void-Station.png"
-                        alt="Prévia do Projeto 3">
-                    <h3>Projeto 3</h3>
-                    <p>Meu terceiro projeto, desenvolvido com HTML, CSS e JavaScript.</p>
-                    <div class="project-meta">HTML • CSS • JavaScript</div>
-                    <a href="https://000-b127.github.io/Void-Station/" target="_blank" rel="noopener">Ver projeto</a>
-                </article>
-            </div>
-        </section>
+      <section class="Fanarts reveal reveal-delay-3">
+        <div class="section-header">
+          <p class="eyebrow">Explorar o universo</p>
+          <h2>Colabore com a Void-Station</h2>
+          <p>
+            Um espaço para ideias visuais, código e arte digital em constante
+            evolução.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <i class="fas fa-palette"></i>
+            <h3>Visuals</h3>
+            <p>
+              Montagens, moodboards e experimentos visuais para dar forma a
+              novas referências.
+            </p>
+            <a href="https://www.instagram.com/direct/inbox/" target="_blank" rel="noopener noreferrer">Enviar ideia</a>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-code"></i>
+            <h3>Code</h3>
+            <p>
+              Projetos, scripts e interfaces criadas para testar novas formas
+              de expressão.
+            </p>
+            <a href="https://github.com/000-b127" target="_blank" rel="noopener noreferrer">Quero colaborar</a>
+          </article>
+
+          <article class="card">
+            <i class="fas fa-rocket"></i>
+            <h3>Novos projetos</h3>
+            <p>
+              Ideias em andamento que podem virar experiências, sites ou peças
+              digitais.
+            </p>
+            <a href="https://github.com/000-b127" target="_blank" rel="noopener noreferrer">Ver mais</a>
+          </article>
+        </div>
+      </section>
+
+      <div id="Sobre" class="reveal reveal-delay-4">
+        <h3>
+          <strong>Sobre:</strong>Void-Station é um espaço experimental para
+          projetos visuais, programação e arte digital.
+        </h3>
+      </div>
     </main>
-
-
-    <!-- Rodapé -->
     <footer>
-        <section id="contato">
-            <h2>Contato</h2>
-            <div class="social-links">
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=zeroovaizio@gmail.com" target="_blank" rel="noopener" class="social-link" title="Gmail"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/000-b127" target="_blank" rel="noopener" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/zero.tempest.b127?igsh=MTM0MzRzdnp5anZnaQ==" target="_blank" rel="noopener" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/@zeroovazio?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
-            </div>
-        </section>
+      <div class="redes-sociais">
+        <a href="https://github.com/000-b127" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/zero.tempest.b127?igsh=MTM0MzRzdnp5anZnaQ==" target="_blank" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@zeroovazio?is_from_webapp=1&sender_device=pc" target="_blank" title="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=zeroovaizio@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Gmail"
+          aria-label="Enviar e-mail pelo Gmail"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <p id="Contato">Contato: zeroovaizio@gmail.com</p>
+      <p>Por: ⛧ƶɇɍø♱</p>
     </footer>
-</body>
 
+    <script>
+      const body = document.body;
+      const hasSeenIntro = localStorage.getItem("voidStationIntroSeen");
+
+      if (!hasSeenIntro) {
+        body.classList.add("loading");
+        setTimeout(() => {
+          body.classList.add("loaded");
+          body.classList.remove("loading");
+          localStorage.setItem("voidStationIntroSeen", "true");
+        }, 1400);
+      } else {
+        body.classList.add("loaded");
+      }
+    </script>
+  </body>
 </html>
